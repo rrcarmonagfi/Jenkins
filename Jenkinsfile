@@ -34,6 +34,7 @@ pipeline
                     "${MI_NUMERO_1} - ${MI_NUMERO_2}" + ' = ' + resta + '\n' +
                     "${MI_NUMERO_1} * ${MI_NUMERO_2}" + ' = ' + multiplicacion + '\n' +
                     "${MI_NUMERO_1} / ${MI_NUMERO_2}" + ' = ' + division
+                println RESULTADO
                 }
             }
         }
